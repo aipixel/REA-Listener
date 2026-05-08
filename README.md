@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://dl.acm.org/doi/abs/10.1145/3746027.3755093"><img src="https://img.shields.io/static/v1?label=Paper&message=PDF&color=red"></a>
   <a href="https://aipixel.github.io/REA-Listener/"><img src="https://img.shields.io/badge/Project-Website-blue"></a>
-  <img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=HuggingFace(Coming Soon)&color=orange"></a>
+  <a><img src="https://img.shields.io/static/v1?label=Model&message=Huggingface&color=orange"></a>
 </p>
 
 
