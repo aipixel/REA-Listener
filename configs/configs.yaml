@@ -1,0 +1,30 @@
+log_iter: 10 
+max_epochs: 500
+batch_size: 128
+ngpus: 1
+momentum: 0.9 
+weight_decay: 0.05 
+betas: [0.9, 0.999] 
+init: kaiming 
+lr: 0.001 
+lr_policy: step 
+gamma: 0.5 
+step_size: 30 
+
+# model options
+trainer: Trainer
+
+# data options
+num_workers: 8
+root: ./data
+temporal_size: 8
+
+loss_weights:
+  loss_angle: 1
+  loss_angle_spiky: 1
+  loss_exp: 1
+  loss_exp_spiky: 0.001
+  loss_trans: 1
+  loss_trans_spiky: 1
+  loss_crop: 1
+  loss_crop_spiky: 1

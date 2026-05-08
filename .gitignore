@@ -1,0 +1,7 @@
+GAGAvatar/checkpoints/
+outputs/
+__pycache__/
+*.pyc
+README_INTERNAL.md
+docs_old
+requirements.txt
